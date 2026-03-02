@@ -1,8 +1,6 @@
 Conversor de Moedas API Client (Java)
 -------
 
-*Visão Geral*
-
 Aplicação Java backend desenvolvida para consumo de API de cotações cambiais, permitindo conversão de valores em Real Brasileiro (BRL) para múltiplas moedas internacionais.
 
 O projeto demonstra conceitos fundamentais de desenvolvimento backend, incluindo integração com APIs externas, manipulação de JSON, boas práticas de orientação a objetos e organização em camadas.
