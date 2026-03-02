@@ -22,16 +22,6 @@ Arquitetura orientada a responsabilidades
 Interface CLI interativa (menu via terminal)
 
 ------
-
-*Arquitetura do Projeto*
- 
-src/
- ├── Menu.java          → Interface com usuário (CLI)
- ├── Busca.java         → Cliente HTTP / Consumo da API
- ├── Conversor.java     → Regra de negócio de conversão
- ├── RespostaApi.java   → DTO para mapear resposta JSON
-
-------
 *Melhorias Futuras*
 
 Cache de cotações
@@ -57,4 +47,4 @@ Clean Code
 
 Manipulação de dados externos
 
-Collections Java (Map)
+Collections Java 
