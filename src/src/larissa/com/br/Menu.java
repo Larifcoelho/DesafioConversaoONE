@@ -43,13 +43,13 @@ public class Menu {
             Busca busca = new Busca();
             String json = busca.buscarCotacoes();
 
-            Conversor conversor = new Conversor();
+            Calculo calculo = new Calculo();
             RespostaApi resposta =
                     new com.google.gson.Gson().fromJson(json, RespostaApi.class);
 
-            double resultado =
-                    conversor.converter(valor, moedaDestino, resposta);
 
+            double resultado =
+                    calculo.converter(valor, moedaDestino, resposta);
             System.out.printf(
                     "Resultado: %.2f %s%n",
                     resultado,
@@ -62,7 +62,3 @@ public class Menu {
 }
 
 
-        }
-    }
-
-}
